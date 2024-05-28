@@ -242,7 +242,7 @@
     justify-content: center;
     height: 70px;
     width: 70px;
-    background-color: #D9D9D9;
+    background-color: var(--thm-black);
     font-size: 26px;
     color: var(--thm-white);
     border-radius: 50px;
@@ -255,7 +255,7 @@
 }
 
 .cs-hover_tab-2.active .services-two__icon a {
-    background-color: var(--thm-black);
+    background-color: var(--thm-base);
 }
 
 
