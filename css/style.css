@@ -167,3 +167,23 @@ VITORS Digital Agency HTML Template
 	flex-direction: column;
 	gap: 32px;
 }
+
+@media screen and (max-width:500px) and (min-width:0px) {
+	.cs-hover_tab-2.active .services-two__title a {
+		color: black;
+	}
+	
+	.cs-hover_tab-2.active .services-two__count:before {
+		-webkit-text-stroke: black;
+	}
+	
+	.cs-hover_tab-2.active .services-two__title a {
+		color: black;
+	}
+	.cs-hover_tab-2.active .services-two__icon a {
+		background-color: black;
+	}
+	.cs-hover_tab-2.active .services-two__count:before {
+		-webkit-text-stroke: black;
+	}
+}
