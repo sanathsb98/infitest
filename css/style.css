@@ -167,6 +167,9 @@ VITORS Digital Agency HTML Template
 	flex-direction: column;
 	gap: 32px;
 }
+.boa{
+	color: white;
+}
 
 @media screen and (max-width:500px) and (min-width:0px) {
 	.cs-hover_tab-2.active .services-two__title a {

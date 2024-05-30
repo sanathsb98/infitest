@@ -189,6 +189,7 @@
     -webkit-animation: inactiveImageAnimation2 1s forwards ease;
     animation: inactiveImageAnimation2 1s forwards ease;
     box-shadow: 19px 16px 10px 0px rgba(0, 0, 0, 0.07);
+    background-size: cover;
 }
 
 
