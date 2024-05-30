@@ -1869,7 +1869,9 @@
 	#navbarSupportedContent {
 		display: block;
 	}
-
+    .main-menu__call{
+		display: none;
+	}
 
 
 }
