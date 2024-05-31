@@ -189,4 +189,51 @@ VITORS Digital Agency HTML Template
 	.cs-hover_tab-2.active .services-two__count:before {
 		-webkit-text-stroke: black;
 	}
+	.cursor-follower,.cursor{
+		display: none;
+	}
+	.main-slider .container {
+		padding-top: 138px;
+	}
 }
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    width: 2px; /* Change this value to adjust the width */
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+    background: var(--thm-base); /* Scrollbar color */
+    border-radius: 10px; /* Roundness of the scroll bar handle */
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Darker color when hovering */
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Scrollbar track color */
+}
+
+html.lenis, html.lenis body {
+	height: auto;
+  }
+  
+  .lenis.lenis-smooth {
+	scroll-behavior: auto !important;
+  }
+  
+  .lenis.lenis-smooth [data-lenis-prevent] {
+	overscroll-behavior: contain;
+  }
+  
+  .lenis.lenis-stopped {
+	overflow: hidden;
+  }
+  
+  .lenis.lenis-smooth iframe {
+	pointer-events: none;
+  }
